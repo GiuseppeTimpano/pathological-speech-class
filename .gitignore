@@ -1,0 +1,25 @@
+# data and experiment outputs (recordings cannot be redistributed, results are large/reproducible)
+data/
+results/
+results_*/
+logs/
+*.wav
+*.safetensors
+*.bin
+*.pt
+*.npy
+
+# the paper itself lives outside this repo (JOMS/: LaTeX sources, figures, build artifacts)
+JOMS/
+
+# python
+__pycache__/
+*.pyc
+.venv/
+venv/
+.ipynb_checkpoints/
+
+# os / editors
+.DS_Store
+.vscode/
+.idea/
