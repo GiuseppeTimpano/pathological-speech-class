@@ -175,20 +175,6 @@ level (probabilities averaged per patient), and saves a reliability diagram (obs
 vs. predicted confidence, binned) to `results/<task>/<run>/calibration/`. Uses the
 `predictions_fold<k>.csv` files already written by `train.py`, so no retraining is needed.
 
-## Citation
-
-If you use this code, please cite:
-
-```bibtex
-@article{timpano2026cnnbigru,
-  title   = {Efficient CNN--BiGRU with Dual Attention for Parkinson's and ALS Speech Classification:
-             A Lightweight Alternative to Self-Supervised Models},
-  author  = {Timpano, Giuseppe and Caligiuri, Maria Eugenia and Cannataro, Mario and Guzzi, Pietro Hiram
-             and Veltri, Pierangelo and Vizza, Patrizia},
-  year    = {2026},
-  note    = {Under review}
-}
-```
 
 ## License
 
